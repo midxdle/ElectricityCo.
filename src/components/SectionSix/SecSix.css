@@ -1,0 +1,68 @@
+.secsix {
+  direction: rtl;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.item1 {
+  margin: 35px;
+  color: rgb(0, 0, 0);
+}
+
+.item1 h1 {
+  direction: ltr;
+  font-size: 45px;
+}
+
+.item1 span {
+  color: #132768;
+}
+
+.item1p {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.item2 {
+  margin: 35px;
+  color: rgb(0, 0, 0);
+}
+
+.item2 h1 {
+  direction: ltr;
+  font-size: 45px;
+}
+
+.item2 span {
+  color: #132768;
+}
+
+.item2p {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.item3 {
+  margin: 35px;
+  color: rgb(0, 0, 0);
+}
+
+.item3 h1 {
+  direction: ltr;
+  font-size: 45px;
+}
+
+.item3 span {
+  color: #132768;
+}
+
+.item3p {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}

@@ -1,0 +1,113 @@
+.footer {
+  direction: rtl;
+  background-color: #2a3846;
+  position: static;
+  height: 300px;
+  display: flex;
+}
+
+.footerlogo {
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  gap: 15px;
+  margin-top: 65px;
+  transition: all ease 0.3s;
+}
+
+.footerlogo:hover {
+  color: #85bdeb;
+}
+
+.footerlogoimg {
+  height: 70px;
+  width: 70px;
+}
+
+.footertext {
+  color: #fff;
+  display: flex;
+  gap: 200px;
+  margin-top: 60px;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.3s;
+}
+
+.text2:hover {
+  color: #85bdeb;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.3s;
+}
+
+.text3:hover {
+  color: #85bdeb;
+}
+
+.text4 {
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.3s;
+}
+
+.text4:hover {
+  color: #85bdeb;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.about a {
+  text-decoration: none;
+  color: #a3a5a8;
+  transition: all ease 0.3s;
+}
+
+.about a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.tools a {
+  text-decoration: none;
+  color: #a3a5a8;
+  transition: all ease 0.3s;
+}
+
+.tools a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.help a {
+  text-decoration: none;
+  color: #a3a5a8;
+  transition: all ease 0.3s;
+}
+
+.help a:hover {
+  text-decoration: none;
+  color: #fff;
+}

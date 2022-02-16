@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+
+:root {
+  --base-color: #e0e0e0;
+  --neu-outset-boxshadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+  --neu-inset-boxshadow: inset 8px 8px 16px 0 rgba(0, 0, 0, 0.2),
+    inset -8px -8px 16px 0 rgba(255, 255, 255, 0.4);
+}
+
+* {
+  font-family: "Samim";
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  background-color: var(--base-color);
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url("/src/fonts/Samim.eot");
+  src: url("/src/fonts/Samim.eot?#iefix") format("embedded-opentype"),
+    url("/src/fonts/Samim.woff2") format("woff2"),
+    url("/src/fonts/Samim.woff") format("woff"),
+    url("/src/fonts/Samim.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url("/src/fonts/Samim-Bold.eot");
+  src: url("/src/fonts/Samim-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/src/fonts/Samim-Bold.woff2") format("woff2"),
+    url("/src/fonts/Samim-Bold.woff") format("woff"),
+    url("/src/fonts/Samim-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url("/src/fonts/Samim-Medium.eot");
+  src: url("/src/fonts/Samim-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/src/fonts/Samim-Medium.woff2") format("woff2"),
+    url("/src/fonts/Samim-Medium.woff") format("woff"),
+    url("/src/fonts/Samim-Medium.ttf") format("truetype");
+  font-weight: 500;
+}

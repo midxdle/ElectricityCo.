@@ -1,0 +1,217 @@
+.secnews {
+  direction: rtl;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+.secnews * {
+  margin: 0;
+}
+
+.newsitem {
+  display: flex;
+  justify-content: space-around;
+}
+
+.newstexts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 25px;
+  margin-top: 25px;
+  text-align: justify;
+  width: 600px;
+}
+
+.newsitem1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.newsitem1 h3 {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.newsitem1 p {
+  margin-top: 25px;
+  margin-right: 25px;
+  font-size: 16px;
+}
+
+.newsbutton {
+  width: 125px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+  letter-spacing: 1.5px;
+}
+
+.newsbutton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #2a3846;
+  z-index: -1;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+.newsbutton:hover::before {
+  width: 100%;
+}
+
+.newsbutton:hover {
+  color: rgb(255, 255, 255);
+}
+
+.newsbutton:active:before {
+  background: #567391;
+}
+
+.subnews {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.news1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.news1 p {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.news2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.news2 p {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.news3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.news3 p {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.news4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.news4 p {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.subjournals {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.journal1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.journal1 p {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.journal2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.journal2 p {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.journal3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.journal3 p {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.journal4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.journal4 p {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.subnews div {
+  border: 2.5px solid #66a6e2;
+  padding: 25px 0px 25px 25px;
+  background-color: #8bb8e49f;
+}
+
+.subjournals div {
+  color: #fff;
+  border: 2.5px solid #66a6e2;
+  padding: 25px 0px 25px 25px;
+  background-color: #0231639d;
+}
+
+.subjournals button {
+  color: #fff;
+}
