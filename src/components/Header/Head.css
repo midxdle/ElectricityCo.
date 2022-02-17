@@ -1,4 +1,4 @@
-.header {
+.headheader {
   direction: rtl;
   background-color: #2a3846;
   position: static;
@@ -6,12 +6,11 @@
   height: 100px;
   display: flex;
   gap: 250px;
-  z-index: 2;
 }
 
 .parentlogo {
   filter: drop-shadow(-0px 12px 0.000001px #29438a);
-  z-index: 3;
+  z-index: 1;
 }
 
 .logo {
@@ -27,7 +26,6 @@
   padding: 0px 100px 0px 100px;
   height: 100px;
   transition: all ease 0.3s;
-
 }
 
 .logo:hover {
@@ -43,25 +41,128 @@
   width: 80px;
 }
 
-.button {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-}
-
-.button button {
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  transition: all ease 0.3s;
-}
-
-.button button:hover {
-  color: #85bdeb;
-}
-
 button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  direction: rtl;
+  z-index: 2;
+  gap: 50px;
+}
+
+.navbar a {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #85bdeb;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 75%;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 500ms, visibility 500ms;
+}
+
+/* Mega Menu header, if needed */
+.dropdown-content .header {
+  background: #84bbe969;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  /* addition to your existing code */
+  visibility: visible;
+  opacity: 1;
+  animation: fade 1s;
+  
+}
+/* addition to your existing code */
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  
+background: linear-gradient(145deg, #afcbd3, #d0f2fa);
+box-shadow:  18px 18px 60px #4e5a5e,
+             -18px -18px 60px #ffffff;
+}
+
+.column h3 {
+  font-size: 16px;
+  color: #1c2f63;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  text-align: right;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  color: #60699c;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
 }
