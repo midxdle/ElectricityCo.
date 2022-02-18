@@ -24,6 +24,7 @@ body {
   /* For tablets: */
   .main {
     width: 80%;
+    font-size:10vw;
     padding: 0;
   }
   .right {
@@ -33,6 +34,7 @@ body {
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .menu, .main, .right {
+    font-size:5vw;
     width: 100%;
   }
 }
