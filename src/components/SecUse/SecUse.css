@@ -64,6 +64,9 @@
 .usepic {
   height: 65px;
   width: 75px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #7e929d, #6a7a84);
+  box-shadow: 12px 12px 24px #606e77, -12px -12px 24px #8ca2af;
 }
 
 .usetexts {
@@ -96,8 +99,6 @@
   color: #fff;
 }
 
-
-
 .usebutton {
   width: 125px;
   height: 40px;
@@ -112,9 +113,9 @@
   transition: all 0.5s;
   z-index: 1;
   letter-spacing: 1.5px;
- }
- 
- .usebutton::before {
+}
+
+.usebutton::before {
   content: "";
   position: absolute;
   top: 0;
@@ -125,16 +126,16 @@
   z-index: -1;
   transition: all 0.5s;
   border-radius: 10px;
- }
- 
- .usebutton:hover::before {
+}
+
+.usebutton:hover::before {
   width: 100%;
- }
- 
- .usebutton:hover {
+}
+
+.usebutton:hover {
   color: rgb(0, 0, 0);
- }
- 
- .usebutton:active:before {
+}
+
+.usebutton:active:before {
   background: #9acbff;
- }
+}

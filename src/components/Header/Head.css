@@ -126,32 +126,41 @@ button {
   float: right;
   width: 33.33%;
   padding: 10px;
-  height: 300px;
+  height: 375px;
   display: flex;
   flex-direction: column;
-  
-background: linear-gradient(145deg, #afcbd3, #d0f2fa);
-box-shadow:  18px 18px 60px #4e5a5e,
-             -18px -18px 60px #ffffff;
+  background: #1c2f63;
+  border: 0.1px solid rgba(12, 111, 224, 0.247);
 }
 
 .column h3 {
   font-size: 16px;
-  color: #1c2f63;
+  color: #bac3dd;
+}
+
+.column p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 25px;
+  text-align: justify;
 }
 
 /* Style links inside the columns */
 .column a {
   float: none;
-  color: black;
+  color: #fff;
   padding: 10px;
+  margin: 15px;
   text-decoration: none;
   text-align: right;
+  border: 2.5px solid rgba(12, 111, 224, 0.39);
 }
 
 /* Add a background color on hover */
 .column a:hover {
-  color: #60699c;
+  color: #ffffff;
+  background-color: #3975a7;
+  transition: all ease  1s;
 }
 
 /* Clear floats after the columns */

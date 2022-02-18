@@ -33,6 +33,7 @@
 
 .newsitem1 h3 {
   margin-right: 25px;
+  margin-bottom: 25px;
   font-size: 20px;
 }
 
@@ -200,16 +201,20 @@
 }
 
 .subnews div {
-  border: 2.5px solid #66a6e2;
   padding: 25px 0px 25px 25px;
-  background-color: #8bb8e49f;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #83a4c7, #9cc3ec);
+  box-shadow:  5px 5px 17px #7693b3,
+               -5px -5px 17px #aed9ff;
 }
 
 .subjournals div {
   color: #fff;
-  border: 2.5px solid #66a6e2;
   padding: 25px 0px 25px 25px;
-  background-color: #0231639d;
+  border-radius: 6px;
+background: linear-gradient(145deg, #05458a, #0552a4);
+box-shadow:  5px 5px 17px #043e7c,
+             -5px -5px 17px #065cb6;
 }
 
 .subjournals button {

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/logo_small.png"
+import droplogo from "../../images/bluelogo.png"
 
 import "./Head.css";
 
@@ -31,7 +32,7 @@ const Head = () => {
               </div>
               <div class="column">
                 <h3>تصاویر</h3>
-                <img className="logoimg"  alt="logo" src={logo}></img>
+                <img className="logoimg"  alt="logo" src={droplogo}></img>
               </div>
             </div>
           </div>
@@ -59,7 +60,7 @@ const Head = () => {
               </div>
               <div class="column">
                 <h3>تصاویر</h3>
-                <img className="logoimg"  alt="logo" src={logo}></img>
+                <img className="logoimg"  alt="logo" src={droplogo}></img>
               </div>
             </div>
           </div>

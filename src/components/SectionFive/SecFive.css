@@ -64,6 +64,10 @@
 .pic5 {
   height: 65px;
   width: 75px;
+  background: #a6c1dd;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #b2cfec, #95aec7);
+  box-shadow: 12px 12px 24px #869cb3, -12px -12px 24px #c6e6ff;
 }
 
 .texts5 {
