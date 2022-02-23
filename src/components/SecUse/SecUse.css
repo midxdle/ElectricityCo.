@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 .secuse {
   direction: rtl;
   overflow: hidden;
-  background-color: #3a4d5f;
+  background-color: #fff;
   margin-bottom: 15px;
 }
 
@@ -89,14 +93,14 @@
 .useitem1 h3 {
   margin-right: 25px;
   font-size: 20px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .useitem1 p {
   margin-top: 25px;
   margin-right: 25px;
   font-size: 16px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .usebutton {
@@ -107,7 +111,7 @@
   border: none;
   outline: none;
   background: transparent;
-  color: rgb(255, 255, 255);
+  color: rgb(131, 131, 131);
   font-weight: 700;
   position: relative;
   transition: all 0.5s;
