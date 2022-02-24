@@ -6,7 +6,7 @@
   direction: rtl;
   overflow: hidden;
   background-color: #fff;
-  margin-bottom: 15px;
+  height: 650px;
 }
 
 .secfive * {
@@ -14,7 +14,9 @@
 }
 
 .item5 {
+  margin-top: 25px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -65,13 +67,43 @@
   flex-direction: column;
 }
 
+.parentroute {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background: #ff6e24;
+  box-shadow: 20px 20px 60px #000000, -20px -20px 60px #000000;
+  transition: all ease 0.3s;
+}
+
+.parentroute:hover{
+  transform: translate(10px, 10px);
+}
+
+.routes {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-right: 15px;
+}
+
 .pic5 {
-  height: 65px;
-  width: 75px;
-  background: #a6c1dd;
-  border-radius: 6px;
-  background: linear-gradient(145deg, #b2cfec, #95aec7);
-  box-shadow: 12px 12px 24px #869cb3, -12px -12px 24px #c6e6ff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background: #000000;
+  box-shadow: 20px 20px 60px #000000, -20px -20px 60px #000000;
+  transition: all ease 0.3s;
+}
+
+.pic5:hover {
+  border-radius: 0px;
+  transform: translate(10px, 10px);
 }
 
 .texts5 {
@@ -110,7 +142,7 @@
   border: none;
   outline: none;
   background: transparent;
-  color: rgb(0, 0, 0);
+  color: rgb(131, 131, 131);
   font-weight: 700;
   position: relative;
   transition: all 0.5s;
@@ -125,7 +157,7 @@
   left: 0;
   width: 5px;
   height: 100%;
-  background-color: #2a3846;
+  background-color: #f26722;
   z-index: -1;
   transition: all 0.5s;
   border-radius: 10px;
@@ -140,5 +172,5 @@
 }
 
 .button5:active:before {
-  background: #567391;
+  background: #000000;
 }

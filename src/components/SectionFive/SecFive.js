@@ -1,5 +1,7 @@
-import pictureone from "../../images/hexagon-grey.png";
-import picturetwo from "../../images/hexagon-white.png";
+/* eslint-disable jsx-a11y/anchor-has-content */
+import elecone from "../../images/elecone.jpg";
+import electwo from "../../images/electwo.jpg";
+import electhree from "../../images/electhree.jpg";
 import "./SecFive.css";
 
 const SecFive = () => {
@@ -24,49 +26,62 @@ const SecFive = () => {
             <div className="threetwo">
 
             <div className="secondtwo">
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-        
+            <img className="pic5" src={elecone} alt="PicFive"></img>
             </div>
 
             <div className="threeofall">
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
+            <img className="pic5" src={elecone} alt="PicFive"></img>
+            <div className="parentroute">
+              <a className="routes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="pic5" src={electwo} alt="PicFive"></img>
+            <div className="parentroute">
+              <a className="routes" href="routeone">کلیک کنید</a>
+            </div>
             </div>
 
             </div>
 
             <div className="firstfive">
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
+            <img className="pic5" src={electwo} alt="PicFive"></img>
+            <img className="pic5" src={electhree} alt="PicFive"></img>
+            <div className="parentroute">
+              <a className="routes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="pic5" src={electwo} alt="PicFive"></img>
+            <img className="pic5" src={elecone} alt="PicFive"></img>
             </div>
 
             </div>
 
             <div className="sixofall">
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
+            <img className="pic5" src={electwo} alt="PicFive"></img>
+            <div className="parentroute">
+              <a className="routes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="pic5" src={electhree} alt="PicFive"></img>
+            <img className="pic5" src={electwo} alt="PicFive"></img>
+            <div className="parentroute">
+              <a className="routes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="pic5" src={elecone} alt="PicFive"></img>
             </div>
             
             <div className="secondfive">
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
+            <img className="pic5" src={electhree} alt="PicFive"></img>
+            <img className="pic5" src={electwo} alt="PicFive"></img>
+            <div className="parentroute">
+              <a className="routes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="pic5" src={electwo} alt="PicFive"></img>
+            <img className="pic5" src={elecone} alt="PicFive"></img>
             </div>
 
             <div className="firsttwo">
-            <img className="pic5" src={pictureone} alt="PicFive"></img>
-            <img className="pic5" src={picturetwo} alt="PicFive"></img>
+            <div className="parentroute">
+              <a className="routes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="pic5" src={electwo} alt="PicFive"></img>
             </div>
             
           </div>

@@ -8,10 +8,9 @@
   flex-direction: row;
   max-width: 1400px;
   height: 600px;
-  margin: 0px auto 15px auto;
+  margin: 0px auto 0px auto;
   position: relative;
   overflow: hidden;
-  box-shadow: 1px 8px 15px #4e71d1;
 }
 
 @media screen and (max-width: 700px) {
@@ -38,7 +37,7 @@
 .btn-slide {
   width: 100px;
   height: 40px;
-  background: #4e6cbd96;
+  background: #ffffff56;
   display: flex;
   align-items: flex-end;
   cursor: pointer;
@@ -47,7 +46,7 @@
 }
 
 .btn-slide:hover{
-  background-color:#85bdebb6;
+  background-color:#f26722d3;
 }
 
 .arrowbtns {
@@ -84,18 +83,21 @@
   height: 10px;
   border: 3px solid rgba(7, 7, 7, 0.6);
   margin: 0 5px;
-  background: #e0dede;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
 }
 .dot.active {
-  background: rgba(7, 7, 7, 0.6);
+  border: 3px solid #833711;
+  background: #F26722;
   border-radius: 50%;
 }
 
 .slidertext {
+  margin-bottom: 5px;
   position: relative;
   display: flex;
   align-items: flex-end;
-  filter: drop-shadow(20px -20px 0.000001px #35487e);
+  filter: drop-shadow(20px -20px 0.000001px #f26722);
 }
 
 .subtext {
@@ -103,8 +105,8 @@
   direction: rtl;
   width: 525px;
   height: 325px;
-  background: #3a4d5f;
-  color: #fff;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,7 +124,7 @@
 }
 
 .subtextbtn {
-  --color: #3992e6;
+  --color: #F26722;
   position: relative;
   z-index: 1;
  }
@@ -168,8 +170,8 @@
  .subtextbtn button {
   padding: 0.5em 2em;
   font-size: 16px;
-  background: #4e6cbd98;
-  color: #fff;
+  background: #F26722;
+  color: rgb(0, 0, 0);
   border: none;
   cursor: pointer;
 

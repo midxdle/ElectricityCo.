@@ -1,5 +1,5 @@
 import React from "react";
-import footerlogo from "../../images/bluelogo.png"
+import footerlogo from "../../images/logosmall.jpeg"
 import "./Footer.css";
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footerlogo">
       <img className="footerlogoimg" alt="footerlogo" src={footerlogo}></img>
       <div className="text1">
-        <h1>پلیمر</h1>
+        <h1>کیهان کاوش نوین</h1>
       </div>
       </div>
 

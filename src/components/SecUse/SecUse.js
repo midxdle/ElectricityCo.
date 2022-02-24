@@ -1,5 +1,6 @@
-import pictureone from "../../images/hexagon-white1.png";
-import picturetwo from "../../images/hexagon-white.png";
+import elecone from "../../images/elecone.jpg";
+import electwo from "../../images/electwo.jpg";
+import electhree from "../../images/electhree.jpg";
 import "./SecUse.css";
 
 const SecUse = () => {
@@ -14,49 +15,65 @@ const SecUse = () => {
             <div className="usethreetwo">
 
             <div className="usesecondtwo">
-            <img className="usepic" src={pictureone} alt="usePic"></img>
+            <img className="usepic" src={elecone} alt="usePic"></img>
         
             </div>
 
             <div className="usethreeofall">
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
+            <div className="useparentroute">
+              <a className="useroutes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="usepic" src={electhree} alt="usePic"></img>
+            <div className="useparentroute">
+              <a className="useroutes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="usepic" src={elecone} alt="usePic"></img>
             </div>
 
             </div>
 
             <div className="usefirstfive">
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
-            <img className="usepic" src={pictureone} alt="usePic"></img>
+            <img className="usepic" src={electhree} alt="usePic"></img>
+            <div className="useparentroute">
+              <a className="useroutes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="usepic" src={electwo} alt="usePic"></img>
+            <img className="usepic" src={elecone} alt="usePic"></img>
+            <div className="useparentroute">
+              <a className="useroutes" href="routeone">کلیک کنید</a>
+            </div>
             </div>
 
             </div>
 
             <div className="usesixofall">
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
+            <img className="usepic" src={electhree} alt="usePic"></img>
+            <img className="usepic" src={elecone} alt="usePic"></img>
+            <img className="usepic" src={electwo} alt="usePic"></img>
+            <div className="useparentroute">
+              <a className="useroutes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="usepic" src={electwo} alt="usePic"></img>
+            <img className="usepic" src={elecone} alt="usePic"></img>
             </div>
             
             <div className="usesecondfive">
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
+            <img className="usepic" src={electhree} alt="usePic"></img>
+            <div className="useparentroute">
+              <a className="useroutes" href="routeone">کلیک کنید</a>
+            </div>
+            <img className="usepic" src={electhree} alt="usePic"></img>
+            <img className="usepic" src={electwo} alt="usePic"></img>
+            <div className="useparentroute">
+              <a className="useroutes" href="routeone">کلیک کنید</a>
+            </div>
             </div>
 
             <div className="usefirsttwo">
-            <img className="usepic" src={pictureone} alt="usePic"></img>
-            <img className="usepic" src={picturetwo} alt="usePic"></img>
+            <img className="usepic" src={electhree} alt="usePic"></img>
+            <div className="useparentroute">
+              <a className="useroutes" href="routeone">کلیک کنید</a>
+            </div>
             </div>
             
           </div>

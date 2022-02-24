@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../images/logo_small.png"
-import droplogo from "../../images/bluelogo.png"
+import logo from "../../images/logosmall.jpeg"
+import droplogo from "../../images/logosmall.jpeg"
 
 import "./Head.css";
 
@@ -21,10 +21,10 @@ const Head = () => {
               </div>
             <div class="row">
               <div class="column">
-                <h3>دسته بندی ها</h3>
-                <a href="#a">دسته بندی اول</a>
-                <a href="#a">دسته بندی دوم</a>
-                <a href="#a">دسته بندی سوم</a>
+                <h3>تازه ترین خبرها</h3>
+                <a href="#a">خبر اول</a>
+                <a href="#a">خبر دوم</a>
+                <a href="#a">خبر سوم</a>
               </div>
               <div class="column">
                 <h3>توضیحات</h3>
@@ -68,17 +68,17 @@ const Head = () => {
 
         <div class="dropdown">
 
-          <button class="dropbtn">صفحات دیگر
+          <button class="dropbtn">گالری
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
             <div class="row">
               <div class="column">
-                <h3>صفحات بیشتر</h3>
-                <a href="#a">صفحه اول</a>
-                <a href="#a">صفحه دوم</a>
-                <a href="#a">صفحه سوم</a>
-                <a href="#a">صفحه چهارم</a>
+                <h3>تصاویر پروژه های اخیر</h3>
+                <a href="#a">پروژه اول</a>
+                <a href="#a">پروژه دوم</a>
+                <a href="#a">پروژه سوم</a>
+                <a href="#a">پروژه چهارم</a>
               </div>
             </div>
           </div>
@@ -86,21 +86,21 @@ const Head = () => {
 
         <div class="dropdown">
 
-          <button class="dropbtn">آزمایشی
+          <button class="dropbtn">درباره ما
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
             <div class="row">
               <div class="column">
-                <h3>صفحات آزمایشی</h3>
+                <h3>معرفی کیهان کاوش نوین</h3>
                 <a href="#a">اولین صفحه</a>
                 <a href="#a">دومین صفحه</a>
                 <a href="#a">سومین صفحه</a>
               </div>
               <div class="column">
-                <h3>در حال اجرا</h3>
-                <a href="#asd">نمایش اول</a>
-                <a href="#asd">نمایش دوم</a>
+                <h3>پروژه های در حال اجرا</h3>
+                <a href="#asd">پروژه اول</a>
+                <a href="#asd">پروژه دوم</a>
               </div>
             </div>
           </div>
@@ -108,16 +108,16 @@ const Head = () => {
 
         <div class="dropdown">
 
-          <button class="dropbtn">مقالات
+          <button class="dropbtn">ارتباط با ما
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
             <div class="row">
               <div class="column">
-                <h3>لیست مقالات</h3>
-                <a href="#a">مقاله اول</a>
-                <a href="#a">مقاله دوم</a>
-                <a href="#a">مقاله سوم</a>
+                <h3>راه های ارتباطی</h3>
+                <a href="#a">راه اول</a>
+                <a href="#a">راه دوم</a>
+                <a href="#a">راه سوم</a>
               </div>
             </div>
           </div>
@@ -126,7 +126,10 @@ const Head = () => {
 
       <div className="parentlogo">
       <div className="logo">
-      <h1>پلیمر لوگو</h1>
+      <div className="logotext">
+      <h1>کیهان کاوش نوین</h1>
+      <p>شرکت مهندسی ارتباطات و نیرو</p>
+      </div>
       <div className="logo1">
       <img className="logoimg"  alt="logo" src={logo}></img>
       </div>

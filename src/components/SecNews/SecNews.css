@@ -5,8 +5,8 @@
 .secnews {
   direction: rtl;
   overflow: hidden;
-  background-color: #3a4d5f;
-  margin-bottom: 15px;
+  background-color: #F26722;
+  height: 900px;
 }
 
 .secnews * {
@@ -37,9 +37,9 @@
 
 .newsitem1 h3 {
   margin-right: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   font-size: 20px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .newsitem1 p {
@@ -56,7 +56,7 @@
   border: none;
   outline: none;
   background: transparent;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: 700;
   position: relative;
   transition: all 0.5s;
@@ -71,7 +71,7 @@
   left: 0;
   width: 5px;
   height: 100%;
-  background-color: #9bcdff;
+  background-color: #F26722;
   z-index: -1;
   transition: all 0.5s;
   border-radius: 10px;
@@ -82,23 +82,32 @@
 }
 
 .newsbutton:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .newsbutton:active:before {
-  background: #567391;
+  background: #000000;
 }
 
 .subnews {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 50px;
 }
 
 .news1 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: all 0.5s;
+}
+
+.news1:hover {
+  transform: translate(-10px, -10px);
+}
+
+.news1:active {
+  transform: translate(-5px, -5px);
 }
 
 .news1 p {
@@ -112,6 +121,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: all 0.5s;
+}
+
+.news2:hover {
+  transform: translate(-10px, -10px);
+}
+
+.news2:active {
+  transform: translate(-5px, -5px);
 }
 
 .news2 p {
@@ -125,6 +143,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: all 0.5s;
+}
+
+.news3:hover {
+  transform: translate(-10px, -10px);
+}
+
+.news3:active {
+  transform: translate(-5px, -5px);
 }
 
 .news3 p {
@@ -138,6 +165,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: all 0.5s;
+}
+
+.news4:hover {
+  transform: translate(-10px, -10px);
+}
+
+.news4:active {
+  transform: translate(-5px, -5px);
 }
 
 .news4 p {
@@ -147,16 +183,96 @@
   overflow: hidden;
 }
 
+.journalstexts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 25px;
+  margin-top: 25px;
+  text-align: justify;
+  width: 600px;
+}
+
+.journalsitem1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.journalsitem1 h3 {
+  margin-right: 25px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.journalsitem1 p {
+  margin-top: 25px;
+  margin-right: 25px;
+  font-size: 16px;
+}
+
+.journalbutton {
+  width: 125px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+  letter-spacing: 1.5px;
+}
+
+.journalbutton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #F26722;
+  z-index: -1;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+.journalbutton:hover::before {
+  width: 100%;
+}
+
+.journalbutton:hover {
+  color: rgb(0, 0, 0);
+}
+
+.journalbutton:active:before {
+  background: #ffffff;
+}
+
 .subjournals {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 50px;
 }
 
 .journal1 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: all 0.5s;
+}
+
+.journal1:hover {
+  transform: translate(-10px, -10px);
+}
+
+.journal1:active {
+  transform: translate(-5px, -5px);
 }
 
 .journal1 p {
@@ -170,6 +286,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: all 0.5s;
+}
+
+.journal2:hover {
+  transform: translate(-10px, -10px);
+}
+
+.journal2:active {
+  transform: translate(-5px, -5px);
 }
 
 .journal2 p {
@@ -183,6 +308,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: all 0.5s;
+}
+
+.journal3:hover {
+  transform: translate(-10px, -10px);
+}
+
+.journal3:active {
+  transform: translate(-5px, -5px);
 }
 
 .journal3 p {
@@ -196,6 +330,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  transition: all 0.5s;
+}
+
+.journal4:hover {
+  transform: translate(-10px, -10px);
+}
+
+.journal4:active {
+  transform: translate(-5px, -5px);
 }
 
 .journal4 p {
@@ -207,19 +350,19 @@
 
 .subnews div {
   padding: 25px 0px 25px 25px;
-  border-radius: 6px;
-  background: linear-gradient(145deg, #83a4c7, #9cc3ec);
-  box-shadow:  5px 5px 17px #7693b3,
-               -5px -5px 17px #aed9ff;
+  border-radius: 5px;
+  background: linear-gradient(315deg, #ffffff, #e6e6e6);
+  box-shadow:  -25px -15px 55px #d9d9d9,
+             25px 15px 55px #ffffff;
 }
 
 .subjournals div {
   color: #fff;
   padding: 25px 0px 25px 25px;
-  border-radius: 6px;
-background: linear-gradient(145deg, #05458a, #0552a4);
-box-shadow:  5px 5px 17px #043e7c,
-             -5px -5px 17px #065cb6;
+  border-radius: 5px;
+  background: linear-gradient(315deg, #000000, #000000);
+  box-shadow:  -25px -15px 55px #000000,
+             25px 15px 55px #000000;
 }
 
 .subjournals button {

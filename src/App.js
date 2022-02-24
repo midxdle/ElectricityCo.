@@ -4,7 +4,6 @@ import Slider from "./components/Slider/Slider";
 import SecFive from "./components/SectionFive/SecFive";
 import SecNews from "./components/SecNews/SecNews";
 import SecUse from "./components/SecUse/SecUse";
-import SectionSupport from "../src/components/SectionSupport/SectionSupport"
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       <SecFive />
       <SecNews />
       <SecUse />
-      <SectionSupport />
       <Footer />
     </div>
   );
