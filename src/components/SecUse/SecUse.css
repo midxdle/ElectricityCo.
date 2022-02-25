@@ -102,11 +102,6 @@
              11px 11px 42px #ff7627;
 }
 
-.usepic:hover {
-  border-radius: 0px;
-  transform: translate(-10px, 10px);
-}
-
 .usetexts {
   display: flex;
   flex-direction: column;

@@ -101,11 +101,6 @@
   transition: all ease 0.3s;
 }
 
-.pic5:hover {
-  border-radius: 0px;
-  transform: translate(10px, 10px);
-}
-
 .texts5 {
   display: flex;
   flex-direction: column;
