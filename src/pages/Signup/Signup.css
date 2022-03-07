@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+.signupmain {
+  display: flex;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+}
+
+.signupside {
+  width: 50%;
+  background: rgb(0, 0, 0) url(../../images/electwo.jpg) no-repeat top;
+}
+
+.signupform {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.925);
+}
+
+.signupfields {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.signupfield {
+  display: flex;
+  padding: 15px;
+}
+
+.signfieldset {
+  color: #ee4300;
+  width: 225px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.signuplegend {
+  margin-right: 5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.signupfieldinput {
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  padding: 5px;
+  background: none;
+}
+
+.signupcheckbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.signupswitch {
+ --switch_width: 2em;
+ --switch_height: 1em;
+ --thumb_color: #e8e8e8;
+ --track_color: #e8e8e8;
+ --track_active_color: #888;
+ --outline_color: #000;
+ font-size: 17px;
+ position: relative;
+ display: inline-block;
+ width: var(--switch_width);
+ height: var(--switch_height);
+}
+
+.signupswitch input {
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+
+.signupslider {
+ box-sizing: border-box;
+ border: 2px solid var(--outline_color);
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: var(--track_color);
+ transition: .15s;
+ border-radius: var(--switch_height);
+}
+
+.signupslider:before {
+ box-sizing: border-box;
+ position: absolute;
+ content: "";
+ height: var(--switch_height);
+ width: var(--switch_height);
+ border: 2px solid var(--outline_color);
+ border-radius: 100%;
+ left: -2px;
+ bottom: -2px;
+ background-color: var(--thumb_color);
+ transform: translateY(-0.2em);
+ box-shadow: 0 0.2em 0 var(--outline_color);
+ transition: .15s;
+}
+
+.signupinput:checked + .signupslider {
+ background-color: var(--track_active_color);
+}
+
+.signupinput:focus-visible + .signupslider {
+ box-shadow: 0 0 0 2px var(--track_active_color);
+}
+
+.signupinput:hover + .signupslider:before {
+ transform: translateY(-0.3em);
+ box-shadow: 0 0.3em 0 var(--outline_color);
+}
+
+.signupinput:checked + .signupslider:before {
+ transform: translateX(calc(var(--switch_width) - var(--switch_height))) translateY(-0.2em);
+}
+
+.signupinput:hover:checked + .signupslider:before {
+ transform: translateX(calc(var(--switch_width) - var(--switch_height))) translateY(-0.3em);
+ box-shadow: 0 0.3em 0 var(--outline_color);
+}
+
+.signuplink {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+}
+
+.signuplink:hover {
+  text-decoration: underline;
+}
+
+.signupcustom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.signupbtn {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 151, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.signupbtn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.signupbtn:before,
+.signupbtn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(0, 0, 0, 0.9),
+    -4px -4px 5px 0px rgba(0, 0, 0, 0.9), 7px 7px 20px 0px rgba(0, 0, 0, 0.2),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.signupbtn:before {
+  height: 0%;
+  width: 2px;
+}
+
+.signupbtn:after {
+  width: 0%;
+  height: 2px;
+}
+
+.signupbtn:hover {
+  color: rgba(251, 75, 2, 1);
+  background: transparent;
+}
+
+.signupbtn:hover:before {
+  height: 100%;
+}
+
+.signupbtn:hover:after {
+  width: 100%;
+}
+
+.signupbtn span:before,
+.signupbtn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.signupbtn span:before {
+  width: 2px;
+  height: 0%;
+}
+
+.signupbtn span:after {
+  height: 2px;
+  width: 0%;
+}
+
+.signupbtn span:hover:before {
+  height: 100%;
+}
+
+.signupbtn span:hover:after {
+  width: 100%;
+}

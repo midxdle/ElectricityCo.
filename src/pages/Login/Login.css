@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+.loginmain {
+  direction: rtl;
+  display: flex;
+  height: 100vh;
+  background: rgb(0, 0, 0) url(../../images/elecone.jpg) no-repeat bottom;
+}
+
+.loginside {
+  width: 50%;  
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+.logincustom-btn {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.loginbtn {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 151, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.loginbtn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.loginbtn:before,
+.loginbtn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(0, 0, 0, 0.9),
+    -4px -4px 5px 0px rgba(0, 0, 0, 0.9), 7px 7px 20px 0px rgba(0, 0, 0, 0.2),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.loginbtn:before {
+  height: 0%;
+  width: 2px;
+}
+
+.loginbtn:after {
+  width: 0%;
+  height: 2px;
+}
+
+.loginbtn:hover {
+  color: rgba(251, 75, 2, 1);
+  background: transparent;
+}
+
+.loginbtn:hover:before {
+  height: 100%;
+}
+
+.loginbtn:hover:after {
+  width: 100%;
+}
+
+.loginbtn span:before,
+.loginbtn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.loginbtn span:before {
+  width: 2px;
+  height: 0%;
+}
+
+.loginbtn span:after {
+  height: 2px;
+  width: 0%;
+}
+
+.loginbtn span:hover:before {
+  height: 100%;
+}
+
+.loginbtn span:hover:after {
+  width: 100%;
+}
+
+.loginfields {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.loginfield {
+  display: flex;
+  padding: 15px;
+}
+
+.loginfieldset {
+  color: #ee4300;
+  width: 225px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.loginlegend {
+  margin-right: 5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.loginfieldinput {
+  color: #fff;
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  padding: 5px;
+  background: none;
+}
+
+.rememberfieldset {
+  width: 150px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.loginlink {
+  text-decoration: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 5px;
+}
+
+.loginswitch {
+ --switch_width: 8em;
+ --switch_height: 1em;
+ --thumb_color: #e8e8e8;
+ --track_color: #e8e8e8;
+ --track_active_color: #888;
+ --outline_color: #000;
+ font-size: 17px;
+ position: relative;
+ display: inline-block;
+ width: var(--switch_width);
+ height: var(--switch_height);
+}
+
+.loginswitch input {
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+
+.loginslider {
+ box-sizing: border-box;
+ border: 2px solid var(--outline_color);
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: var(--track_color);
+ transition: .15s;
+ border-radius: var(--switch_height);
+}
+
+.loginslider:before {
+ box-sizing: border-box;
+ position: absolute;
+ content: "";
+ height: var(--switch_height);
+ width: var(--switch_height);
+ border: 2px solid var(--outline_color);
+ border-radius: 100%;
+ left: -2px;
+ bottom: -2px;
+ background-color: var(--thumb_color);
+ transform: translateY(-0.2em);
+ box-shadow: 0 0.2em 0 var(--outline_color);
+ transition: .15s;
+}
+
+.logininput:checked + .loginslider {
+ background-color: var(--track_active_color);
+}
+
+.logininput:focus-visible + .loginslider {
+ box-shadow: 0 0 0 2px var(--track_active_color);
+}
+
+.logininput:hover + .loginslider:before {
+ transform: translateY(-0.3em);
+ box-shadow: 0 0.3em 0 var(--outline_color);
+}
+
+.logininput:checked + .loginslider:before {
+ transform: translateX(calc(var(--switch_width) - var(--switch_height))) translateY(-0.2em);
+}
+
+.logininput:hover:checked + .loginslider:before {
+ transform: translateX(calc(var(--switch_width) - var(--switch_height))) translateY(-0.3em);
+ box-shadow: 0 0.3em 0 var(--outline_color);
+}
