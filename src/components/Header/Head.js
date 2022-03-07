@@ -10,7 +10,7 @@ const Head = () => {
 
         <div class="navbar">
 
-          <a href="#asd">صفحه اصلی</a>
+          <a href="main">صفحه اصلی</a>
           <div class="dropdown">
             <button class="dropbtn">اخبار و رویدادها
               <i class="fa fa-caret-down"></i>
