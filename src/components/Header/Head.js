@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import logo from "../../images/logosmall.jpeg"
 import droplogo from "../../images/logosmall.jpeg"
 
@@ -9,8 +10,9 @@ const Head = () => {
       <div className="headheader">
 
         <div class="navbar">
-
-          <a href="main">صفحه اصلی</a>
+          <Link to="/">
+          <a href="#mainpage">صفحه اصلی</a>
+          </Link>
           <div class="dropdown">
             <button class="dropbtn">اخبار و رویدادها
               <i class="fa fa-caret-down"></i>

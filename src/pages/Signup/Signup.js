@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Header from "../../components/Header/Head";
+import Footer from "../../components/Footer/Footer";
 import "./Signup.css";
 
 class SignUp extends Component {
@@ -35,6 +37,8 @@ class SignUp extends Component {
 
   render() {
     return (
+      <div>
+        <Header />
       <div className="signupmain">
         <div className="signupside" />
         <div className="signupform">
@@ -111,6 +115,8 @@ class SignUp extends Component {
             </form>
           </div>
         </div>
+      </div>
+      <Footer />
       </div>
     );
   }

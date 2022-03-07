@@ -22,7 +22,7 @@
 }
 
 .signupfields {
-  margin-top: 100px;
+  margin-top: 75px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -145,7 +145,6 @@
 .signupcustom-btn {
   width: 130px;
   height: 40px;
-  color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
   font-weight: 500;

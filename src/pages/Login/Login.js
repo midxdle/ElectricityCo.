@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Header from "../../components/Header/Head";
+import Footer from "../../components/Footer/Footer";
 import "./Login.css";
 
 class Login extends Component {
@@ -33,6 +35,8 @@ class Login extends Component {
 
   render() {
     return (
+      <div>
+        <Header />
       <div className="loginmain">
         <div className="loginside" />
         <div className="loginform">
@@ -79,21 +83,19 @@ class Login extends Component {
               </div>
 
               <div className="loginfield">
-                <fieldset className="rememberfieldset">
-                  <legend>
-                    <a href="remember" className="loginlink">
-                      من را به خاطر بسپار
-                    </a>
-                  </legend>
+                <a href="remember" className="loginlink">
+                  من را به خاطر بسپار
                   <label className="loginswitch">
-                    <input className="logininput" type="checkbox"></input>
-                    <span className="loginslider"></span>
-                  </label>
-                </fieldset>
+                  <input className="logininput" type="checkbox"></input>
+                  <span className="loginslider"></span>
+                </label>
+                </a>
               </div>
             </form>
           </div>
         </div>
+      </div>
+      <Footer />
       </div>
     );
   }
